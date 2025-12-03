@@ -36,7 +36,10 @@
     "security-audit": "node src/security-audit.js",
     "security-audit:ci": "node src/security-audit.js --ci",
     "security-audit:verbose": "node src/security-audit.js --verbose",
-    "security-audit:json": "node src/security-audit.js --json --output=security-report.json"
+    "security-audit:json": "node src/security-audit.js --json --output=security-report.json",
+    "validate:marketplace": "node scripts/validate-marketplace.js",
+    "find:missing-files": "node scripts/find-missing-files.js",
+    "fix:marketplace": "node scripts/fix-marketplace.js"
   },
   "keywords": [
     "claude",
